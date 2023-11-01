@@ -63,6 +63,7 @@ class OddballParticle extends Particle //inherits from Particle
   OddballParticle(){
   mySpeed = (int)(Math.random()*5+1);
   mySize = 30;
+  myAngle = (Math.random()*Math.PI*2);
   }
      
   void move(){
